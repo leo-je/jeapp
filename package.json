@@ -10,16 +10,30 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@ant-design/react-native": "^3.3.0",
+    "@react-native-community/masked-view": "^0.1.9",
+    "antd-mobile": "^2.3.1",
     "core-js": "^3.6.5",
-    "react": "16.11.0",
+    "rc-util": "^4.20.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-native": "0.62.2",
-    "react-native-device-info": "^5.5.4"
+    "react-native-device-info": "^5.5.5",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-safe-area-context": "^0.7.3",
+    "react-native-screens": "^2.5.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.3.7",
+    "react-navigation-stack": "^2.3.12",
+    "tsutils": "^3.17.1",
+    "typescript": "^3.8.3"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/runtime": "^7.9.2",
     "@react-native-community/eslint-config": "^1.0.0",
     "babel-jest": "^25.3.0",
+    "babel-plugin-import": "^1.13.0",
     "eslint": "^6.8.0",
     "jest": "^25.3.0",
     "metro-react-native-babel-preset": "^0.59.0",
