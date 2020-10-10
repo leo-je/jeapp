@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Navigation from "./src/navigation";
+import Navigation from "./src/navigation/loadNavigation/";
 
 const App: () => React$Node = () => {
   return (

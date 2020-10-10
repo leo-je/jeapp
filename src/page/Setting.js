@@ -9,23 +9,11 @@ import {
 let that;
 const { width, height } = Dimensions.get("window");
 
-class Home extends Component {
+class Setting extends Component {
 
   constructor(props){
     super(props);
     that = this;
-}
-
-loginHandle = ()=>{
-  console.log("233333")
-  //跳转页面,参数
-  that.props.navigation.navigate('Setting',{
-    from:"Welcome",
-    param:{
-      name:"hehehe",
-      id:"2333"
-    }
-  });
 }
 
   render() {
@@ -34,14 +22,13 @@ loginHandle = ()=>{
       <>
         <Text>width</Text><Text>{width}</Text>
         <Text>height</Text><Text>{height}</Text>
-        <Button title="233" onPress={this.loginHandle}></Button>
       </>
     );
   }
 }
 
 
-export default Home;
+export default Setting;
 
 const styles = StyleSheet.create({
 
